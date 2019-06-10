@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import './style.css';
-import { greenBright } from 'ansi-colors';
 
 const url_api = ['recarga', 'dados'];
 
