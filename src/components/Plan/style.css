@@ -20,6 +20,12 @@
     padding: 15px 35px;
 }
 
+@media(max-width: 330px) {
+    .price {
+        font-size: 27px;
+    }
+}
+
 .bonus {
     font-family: inherit;
     color: #828282;

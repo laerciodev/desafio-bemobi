@@ -11,8 +11,8 @@ const ContainerButtons = props => {
     return (
         
         <div className="container-buttons">
-           <div className={ index == 0 ? 'button active' : 'button' } id="button-service" onClick={props.buttonService}>Serviços</div>
-           <div className={ index == 1 ? 'button active' : 'button' } id="button-data" onClick={props.buttonData} >Dados</div>
+           <div className={ index === 0 ? 'button active' : 'button' } id="button-service" onClick={props.buttonService}>Serviços</div>
+           <div className={ index === 1 ? 'button active' : 'button' } id="button-data" onClick={props.buttonData} >Dados</div>
         </div>
     )
 }
